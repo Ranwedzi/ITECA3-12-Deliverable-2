@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.brand img {
+    height: 50px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-nav li {
+    margin: 0 10px;
+}
+
+.navbar-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.slideshow-container {
+    position: relative;
+    overflow: hidden;
+    height: calc(100vh - 60px - 100px); 
+}
+
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slide {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 30px 0;
+    font-size: 0.9em;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 33%;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.footer h2 {
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.footer p, .footer a {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    display: block;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #ffd700;
+}
+
+.footer-menu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-menu a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+    color: #ffd700;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #ccc;
+    text-align: center;
+    font-size: 0.8em;
+}
