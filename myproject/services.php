@@ -16,18 +16,25 @@ require_once 'includes/login_view.inc.php';
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
+   <div class="header">
+    <div class="container">
+        <div class="brand">
+            <a href="index.html">
+                <img src="lego.png" alt="Logo">
+            </a>
+        </div>
+        <div class="navbar">
+            <ul class="navbar-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.php">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="login.php">Login</a></li>
-                <li><a href="cart.php"><i class="fa fa-shopping-cart"></i></a></li>
+                <li id="sh-bag"><a href="cart.php"><i class="fa fa-shopping-cart"></i></a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </div>
+</div> 
 
     <main>
         <div class="container">
